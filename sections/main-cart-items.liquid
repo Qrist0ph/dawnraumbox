@@ -70,7 +70,7 @@
 
             <tbody>
               {%- for item in cart.items -%}
-                <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
+                <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'">
                   <td class="cart-item__media">
                     {% if item.image %}
                       {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
@@ -219,7 +219,7 @@
 
                   <td class="cart-item__quantity">
                     <div class="cart-item__quantity-wrapper">
-                      <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}">
+                      <label class="visually-hidden" for="Quantity-{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'">
                         {{ 'products.product.quantity.label' | t }}
                       </label>
                       <quantity-input class="quantity cart-quantity">
@@ -244,8 +244,8 @@
                           step="{{ item.variant.quantity_rule.increment }}"
                           {% # theme-check-enable %}
                           aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
-                          id="Quantity-{{ item.index | plus: 1 }}"
-                          data-index="{{ item.index | plus: 1 }}"
+                          id="Quantity-{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'"
+                          data-index="{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'"
                         >
                         <button class="quantity__button no-js-hidden" name="plus" type="button">
                           <span class="visually-hidden">
@@ -256,8 +256,8 @@
                       </quantity-input>
 
                       <cart-remove-button
-                        id="Remove-{{ item.index | plus: 1 }}"
-                        data-index="{{ item.index | plus: 1 }}"
+                        id="Remove-{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'"
+                        data-index="{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'"
                       >
                         <a
                           href="{{ item.url_to_remove }}"
@@ -268,7 +268,7 @@
                         </a>
                       </cart-remove-button>
                     </div>
-                    <div class="cart-item__error" id="Line-item-error-{{ item.index | plus: 1 }}" role="alert">
+                    <div class="cart-item__error" id="Line-item-error-{{ item.index | plus: 1 }}" data-cart-item-key='{{ item.key }}'" role="alert">
                       <small class="cart-item__error-text"></small>
                       <svg
                         aria-hidden="true"

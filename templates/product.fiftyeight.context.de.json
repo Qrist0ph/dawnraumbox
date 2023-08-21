@@ -1,0 +1,7 @@
+{
+  "parent": "product.fiftyeight.json",
+  "context": {
+    "market": "de"
+  },
+  "sections": {}
+}

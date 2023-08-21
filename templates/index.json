@@ -6,194 +6,204 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Ihre \"raumbox\" für Weihnachten!",
             "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Jetzt entdecken!",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
-        "text",
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/IMG_4079.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "978691bc-99c8-46c9-b3be-16afebdd2cb8": {
+      "type": "multicolumn",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-0": {
+          "type": "column",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "image": "shopify://shop_images/raumbox_online_slide_weihnachten_2_1280x1280_2x_ba6eed84-222e-4872-8464-88d1e818107e.jpg",
+            "title": "Schenken",
+            "text": "<p>Sie suchen das besondere Geschenk? Dann lassen Sie sich in unserer Geschenkwelt inspirieren! Hochwertige Markenprodukte, sorgfältig für Sie ausgewählt, warten nur darauf verschenkt zu werden.</p>",
+            "link_label": "raumbox Geschenkwelt entdecken",
+            "link": "shopify://collections/schenken"
           }
         },
-        "text": {
-          "type": "text",
+        "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-1": {
+          "type": "column",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify://shop_images/raumbox_slide_3_1280x1280_2x_f2487a63-64bb-4610-98e5-384835051d75.jpg",
+            "title": "Wohnen",
+            "text": "<p>Machen Sie Ihr Wohnambiente zum perfekten zu Hause mit Wohnideen von raumbox. Nützliche Accessoires mit Design-Anspruch ergänzen Ihren ausgesuchten Wohnstil. Unsere mit Liebe und Sorgfalt ausgesuchten raumbox Inspirationen warten nur auf Sie!</p>",
+            "link_label": "raumbox Wohnwelt entdecken",
+            "link": "shopify://collections/wohnen"
+          }
+        },
+        "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/raumbox_online_slide_weihnachten_2_1280x1280_2x_ba6eed84-222e-4872-8464-88d1e818107e.jpg",
+            "title": "Outdoor",
+            "text": "<p>Barbecue, Grillen oder Outdoor-Spiele? Für die ganze Familie finden Sie in unserer raumbox Outdoor-Welt Nützliches oder einfach nur um Draußen Spaß zu haben.</p>",
+            "link_label": "raumbox Outdoor-Welt entdecken",
+            "link": "shopify://collections/outdoor"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-0",
+        "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-1",
+        "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-2"
       ],
       "settings": {
+        "title": "raumbox - Ideenwelt",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Alle Produkte",
+        "button_link": "shopify://collections/all",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Beliebte Produkte",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "swipe_on_mobile": false,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
-        "padding_top": 28,
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     },
-    "collage": {
+    "cb2c5415-c9ac-40ce-880b-381875e4efef": {
       "type": "collage",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-0": {
+          "type": "image",
           "settings": {
-            "collection": ""
+            "image": "shopify://shop_images/4064997312269-7-geschenkbox-weihnachten-3d-fsc-mix.jpg"
           }
         },
-        "product": {
+        "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-1": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "",
             "second_image": false
           }
         },
-        "collection-1": {
+        "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-2": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "raumboxen"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-0",
+        "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-1",
+        "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-2"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
+        "heading": "\"raumbox\" verschenken!",
+        "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "heading_size": "h1",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
+    "b6aa400d-ac55-41a4-a760-e8773233409d": {
+      "type": "image-with-text",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-0": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Family Business - Die Viertls'",
+            "heading_size": "h1"
           }
         },
-        "column2": {
-          "type": "column",
+        "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-1": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Wir sind die Viertls: Monika und Andreas. Wir lieben und leben unser Online-Geschäft und das seit über 10 Jahren. Jedes Paket wird von uns mit Liebe und Freude verpackt, damit es sicher bei Ihnen ankommt. Und Sicherheit, gerade im Onlinekauf ist das wichtigste für uns, damit Sie entspannt und ohne Sorge bei uns shoppen können.</p>",
+            "text_style": "body"
           }
         },
-        "column3": {
-          "type": "column",
+        "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-2": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "Über uns",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-0",
+        "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-1",
+        "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
+        "image": "shopify://shop_images/B330BB54-17E6-48C0-840D-B13A72C72E2B.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -201,10 +211,9 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "978691bc-99c8-46c9-b3be-16afebdd2cb8",
     "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "cb2c5415-c9ac-40ce-880b-381875e4efef",
+    "b6aa400d-ac55-41a4-a760-e8773233409d"
   ]
 }

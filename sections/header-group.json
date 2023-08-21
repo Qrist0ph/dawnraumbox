@@ -8,28 +8,40 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "background-1",
+            "text": "Viertls‘ raumbox - mit Sicherheit shoppen: 60 Tage Rückgabegarantie ab einen Bestellwert von 100 EURO!",
             "link": ""
+          }
+        },
+        "2c785cb8-bde9-4516-817a-a8c7fecee170": {
+          "type": "announcement",
+          "settings": {
+            "text": "Mengenrabatt bei ausgewählten Produkten ab 2 Stück (bis zu 15%)! Hier clicken",
+            "link": "shopify://collections/mengenrabatt"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
-      ]
+        "announcement-bar-0",
+        "2c785cb8-bde9-4516-817a-a8c7fecee170"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5
+      }
     },
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "background-1",
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 20,

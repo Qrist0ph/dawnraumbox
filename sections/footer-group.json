@@ -5,43 +5,43 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
+        "464fba37-3c10-419a-a91b-35ccd2627de9": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "raumbox Service",
+            "menu": "raumbox-service"
           }
         },
-        "footer-1": {
+        "d1125b56-dce0-4af1-9189-8f3c2b74fee7": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Informationen & Rechtliches",
+            "menu": "informationen-rechtliches"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "dfa0dfcb-5073-49e2-82e6-04fcc315a641": {
+          "type": "brand_information",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "show_social": true
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "464fba37-3c10-419a-a91b-35ccd2627de9",
+        "d1125b56-dce0-4af1-9189-8f3c2b74fee7",
+        "dfa0dfcb-5073-49e2-82e6-04fcc315a641"
       ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Unser Newsletter",
+        "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
+        "show_policy": true,
+        "margin_top": 36,
         "padding_top": 36,
         "padding_bottom": 36
       }
