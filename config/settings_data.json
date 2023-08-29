@@ -1,8 +1,8 @@
 {
   "current": {
-    "logo": "shopify://shop_images/422E1FE4-8EDB-41A3-8CF5-1702F1BF34E5.png",
+    "logo": "shopify:\/\/shop_images\/422E1FE4-8EDB-41A3-8CF5-1702F1BF34E5.png",
     "logo_width": 200,
-    "favicon": "shopify://shop_images/IMG_3846.jpg",
+    "favicon": "shopify:\/\/shop_images\/IMG_3846.jpg",
     "type_header_font": "avenir_next_n4",
     "heading_scale": 100,
     "type_body_font": "roboto_n4",
@@ -97,8 +97,8 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p>Karl-Schiller-Strasse 8<br/>92348 Berg<br/>☏ <a href=\"tel:+49 (0) 9181 440 22 46\">+49 (0) 9181 440 22 46</a></p><p>✉ <a href=\"mailto:info@raumbox.de\">info@raumbox.de</a></p>",
-    "brand_image": "shopify://shop_images/raumbox_rechts_85x400_pixel_300dpi_11f7d816-768f-44ab-a3e4-dce27d6f6251.png",
+    "brand_description": "<p>Karl-Schiller-Strasse 8<br\/>92348 Berg<br\/>☏ <a href=\"tel:+49 (0) 9181 440 22 46\">+49 (0) 9181 440 22 46<\/a><\/p><p>✉ <a href=\"mailto:info@raumbox.de\">info@raumbox.de<\/a><\/p>",
+    "brand_image": "shopify:\/\/shop_images\/raumbox_rechts_85x400_pixel_300dpi_11f7d816-768f-44ab-a3e4-dce27d6f6251.png",
     "brand_image_width": 205,
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -131,12 +131,24 @@
         }
       }
     },
-    "content_for_index": [],
+    "content_for_index": [
+
+    ],
     "blocks": {
       "319724205969189013": {
-        "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/app-embed\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
-        "settings": {}
+        "settings": {
+        }
+      },
+      "5059203847231188605": {
+        "type": "shopify:\/\/apps\/smart-product-filter-search\/blocks\/app-embed\/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
+        "disabled": false,
+        "settings": {
+          "productGridSelector": "",
+          "customJs": "",
+          "customCss": ""
+        }
       }
     },
     "color_schemes": {
@@ -397,7 +409,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p></p>",
+      "brand_description": "<p><\/p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
