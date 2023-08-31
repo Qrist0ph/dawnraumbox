@@ -3502,6 +3502,10 @@ details-disclosure > details {
 
 
 /* -Globo */
+body > #gf-tree .gf-filter-footer button,
+body > #gf-tree .gf-filter-header > div.gf-filter-heading,
+.gf-refine-toggle-mobile span,
+.gf-summary,
 .spf-has-filter #gf-grid .sort-by,
 #gf_pagination_wrap .pagination > span,
 .spf-has-filter #gf-grid .price__regular,
