@@ -3499,3 +3499,12 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+/* -Globo */
+.spf-has-filter #gf-tree .gf-label {
+    font-family: var(--font-heading-family)!important;
+}
+
+
+/* EndGlobo */
