@@ -3502,6 +3502,7 @@ details-disclosure > details {
 
 
 /* -Globo */
+.spf-has-filter #gf-grid .price__regular,
 .spf-has-filter #gf-tree .gf-option-block ul li button {
     font-family: var(--font-heading-family)!important;
 }
