@@ -6,9 +6,50 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "489d9f79-e3a5-49fa-be82-1cba268607b8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fiftyeight-products"
+          }
+        },
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rauchermanner"
+          }
+        },
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-1",
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-2",
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-3"
+      ],
+      "settings": {
+        "title": "Kategorien",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "489d9f79-e3a5-49fa-be82-1cba268607b8"
   ]
 }
