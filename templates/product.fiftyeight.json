@@ -12,11 +12,13 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "2960bdeb-6061-4a05-9e66-475480dbc6b3": {
           "type": "sku",
@@ -32,7 +34,8 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "fd8c4e50-1cbe-4a1a-847c-2ae1ae504d18": {
           "type": "inventory",
@@ -51,20 +54,22 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         },
         "6611bb51-1bc2-44f0-8deb-86611e36a3b1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Produktspezifikationen",
             "icon": "check_mark",
-            "content": "<ul><li>Motiv: {{ product.metafields.custom.motiv.value }}</li><li>Farbe: {{ product.metafields.custom.farbe.value }}</li><li>Oberfläche: {{ product.metafields.custom.oberflaeche.value }}</li><li>Fassungsvermögen (ca.): {{ product.metafields.custom.fassungsverm_gen | metafield_tag }}</li><li>Durchmesser: {{ product.metafields.custom.durchmesser | metafield_tag }}</li><li>Höhe: {{ product.metafields.custom.hoehe | metafield_tag }}</li><li>Gewicht {{ product.metafields.custom.gewicht | metafield_tag }}</li><li>Material: {{ product.metafields.custom.material.value }}</li><li>Verpackung: {{ product.metafields.custom.verpackung.value }}</li><li>Verpackungsfarbe: {{ product.metafields.custom.verpackungsfarbe.value }}</li><li>Herstellungsart: {{ product.metafields.custom.herstellungsart.value }}</li><li>Herstellungsland: {{ product.metafields.custom.herstellungsland.value }}</li></ul>",
+            "content": "<ul><li>Laune:<\/li><\/ul>{{ product.metafields.custom[\"58_laune\"] | metafield_tag }}<ul><li>Farbe: {{ product.metafields.custom.farbe.value }}<\/li><li>Oberfläche: {{ product.metafields.custom.oberflaeche.value }}<\/li><li>Fassungsvermögen (ca.): {{ product.metafields.custom.fassungsverm_gen | metafield_tag }}<\/li><li>Durchmesser: {{ product.metafields.custom.durchmesser | metafield_tag }}<\/li><li>Höhe: {{ product.metafields.custom.hoehe | metafield_tag }}<\/li><li>Gewicht {{ product.metafields.custom.gewicht | metafield_tag }}<\/li><li>Material: {{ product.metafields.custom.material.value }}<\/li><li>Verpackung: {{ product.metafields.custom.verpackung.value }}<\/li><li>Verpackungsfarbe: {{ product.metafields.custom.verpackungsfarbe.value }}<\/li><li>Herstellungsart: {{ product.metafields.custom.herstellungsart.value }}<\/li><li>Herstellungsland: {{ product.metafields.custom.herstellungsland.value }}<\/li><\/ul>",
             "page": ""
           }
         },
         "e5b6f608-eb77-474b-bdb3-7ee938a4adae": {
           "type": "rating",
-          "settings": {}
+          "settings": {
+          }
         },
         "d85dcbf2-080a-49a5-a916-277cc27401d5": {
           "type": "popup",
@@ -133,6 +138,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -151,7 +157,7 @@
             "image": "{{ block.repeater.bild.value }}",
             "caption": "",
             "heading": "{{ block.repeater.uberschrift.value }}",
-            "text": "<p>{{ block.repeater.untertitel.value }}</p><ul><li>{{ block.repeater.herkunftsland.value }}</li><li>{{ block.repeater.verpackung.value }}</li><li>{{ block.repeater.oberflache.value }}</li></ul>",
+            "text": "<p>{{ block.repeater.untertitel.value }}<\/p><ul><li>{{ block.repeater.herkunftsland.value }}<\/li><li>{{ block.repeater.verpackung.value }}<\/li><li>{{ block.repeater.oberflache.value }}<\/li><\/ul>",
             "button_label": "Kaufen",
             "button_link": ""
           }
