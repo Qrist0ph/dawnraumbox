@@ -14,7 +14,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Jetzt entdecken!",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -22,15 +22,18 @@
           }
         }
       },
-      "block_order": ["heading", "button"],
+      "block_order": [
+        "heading",
+        "button"
+      ],
       "settings": {
-        "image": "shopify://shop_images/IMG_4079.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_4079.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
@@ -43,31 +46,31 @@
         "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-0": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/raumbox_online_slide_weihnachten_2_1280x1280_2x_ba6eed84-222e-4872-8464-88d1e818107e.jpg",
+            "image": "shopify:\/\/shop_images\/raumbox_online_slide_weihnachten_2_1280x1280_2x_ba6eed84-222e-4872-8464-88d1e818107e.jpg",
             "title": "Schenken",
-            "text": "<p>Sie suchen das besondere Geschenk? Dann lassen Sie sich in unserer Geschenkwelt inspirieren! Hochwertige Markenprodukte, sorgfältig für Sie ausgewählt, warten nur darauf verschenkt zu werden.</p>",
+            "text": "<p>Sie suchen das besondere Geschenk? Dann lassen Sie sich in unserer Geschenkwelt inspirieren! Hochwertige Markenprodukte, sorgfältig für Sie ausgewählt, warten nur darauf verschenkt zu werden.<\/p>",
             "link_label": "raumbox Geschenkwelt entdecken",
-            "link": "shopify://collections/schenken"
+            "link": "shopify:\/\/collections\/schenken"
           }
         },
         "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/raumbox_slide_3_1280x1280_2x_f2487a63-64bb-4610-98e5-384835051d75.jpg",
+            "image": "shopify:\/\/shop_images\/raumbox_slide_3_1280x1280_2x_f2487a63-64bb-4610-98e5-384835051d75.jpg",
             "title": "Wohnen",
-            "text": "<p>Machen Sie Ihr Wohnambiente zum perfekten zu Hause mit Wohnideen von raumbox. Nützliche Accessoires mit Design-Anspruch ergänzen Ihren ausgesuchten Wohnstil. Unsere mit Liebe und Sorgfalt ausgesuchten raumbox Inspirationen warten nur auf Sie!</p>",
+            "text": "<p>Machen Sie Ihr Wohnambiente zum perfekten zu Hause mit Wohnideen von raumbox. Nützliche Accessoires mit Design-Anspruch ergänzen Ihren ausgesuchten Wohnstil. Unsere mit Liebe und Sorgfalt ausgesuchten raumbox Inspirationen warten nur auf Sie!<\/p>",
             "link_label": "raumbox Wohnwelt entdecken",
-            "link": "shopify://collections/wohnen"
+            "link": "shopify:\/\/collections\/wohnen"
           }
         },
         "template--18805583380801__978691bc-99c8-46c9-b3be-16afebdd2cb8-1683813791879f7760-2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/raumbox_online_slide_weihnachten_2_1280x1280_2x_ba6eed84-222e-4872-8464-88d1e818107e.jpg",
+            "image": "shopify:\/\/shop_images\/raumbox_online_slide_weihnachten_2_1280x1280_2x_ba6eed84-222e-4872-8464-88d1e818107e.jpg",
             "title": "Outdoor",
-            "text": "<p>Barbecue, Grillen oder Outdoor-Spiele? Für die ganze Familie finden Sie in unserer raumbox Outdoor-Welt Nützliches oder einfach nur um Draußen Spaß zu haben.</p>",
+            "text": "<p>Barbecue, Grillen oder Outdoor-Spiele? Für die ganze Familie finden Sie in unserer raumbox Outdoor-Welt Nützliches oder einfach nur um Draußen Spaß zu haben.<\/p>",
             "link_label": "raumbox Outdoor-Welt entdecken",
-            "link": "shopify://collections/outdoor"
+            "link": "shopify:\/\/collections\/outdoor"
           }
         }
       },
@@ -85,7 +88,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Alle Produkte",
-        "button_link": "shopify://collections/all",
+        "button_link": "shopify:\/\/collections\/all",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -110,6 +113,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -126,7 +130,7 @@
         "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/4064997312269-7-geschenkbox-weihnachten-3d-fsc-mix.jpg"
+            "image": "shopify:\/\/shop_images\/4064997312269-7-geschenkbox-weihnachten-3d-fsc-mix.jpg"
           }
         },
         "template--18805583380801__cb2c5415-c9ac-40ce-880b-381875e4efef-1683838334e6326a75-1": {
@@ -173,7 +177,7 @@
         "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Wir sind die Viertls: Monika und Andreas. Wir lieben und leben unser Online-Geschäft und das seit über 10 Jahren. Jedes Paket wird von uns mit Liebe und Freude verpackt, damit es sicher bei Ihnen ankommt. Und Sicherheit, gerade im Onlinekauf ist das wichtigste für uns, damit Sie entspannt und ohne Sorge bei uns shoppen können.</p>",
+            "text": "<p>Wir sind die Viertls: Monika und Andreas. Wir lieben und leben unser Online-Geschäft und das seit über 10 Jahren. Jedes Paket wird von uns mit Liebe und Freude verpackt, damit es sicher bei Ihnen ankommt. Und Sicherheit, gerade im Onlinekauf ist das wichtigste für uns, damit Sie entspannt und ohne Sorge bei uns shoppen können.<\/p>",
             "text_style": "body"
           }
         },
@@ -181,7 +185,8 @@
           "type": "button",
           "settings": {
             "button_label": "Über uns",
-            "button_link": ""
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
@@ -191,7 +196,7 @@
         "template--18805583380801__b6aa400d-ac55-41a4-a760-e8773233409d-1683839726262c356f-2"
       ],
       "settings": {
-        "image": "shopify://shop_images/B330BB54-17E6-48C0-840D-B13A72C72E2B.jpg",
+        "image": "shopify:\/\/shop_images\/B330BB54-17E6-48C0-840D-B13A72C72E2B.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
