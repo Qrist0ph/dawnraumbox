@@ -38,6 +38,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "d287964b-c453-4451-8d9a-51c60589abe0": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<!--Trustami Vertrauenssiegel--> \n<div class=\"widget_container\"><\/div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -57,6 +63,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "d287964b-c453-4451-8d9a-51c60589abe0",
         "description",
         "share"
       ],
@@ -84,6 +91,7 @@
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
