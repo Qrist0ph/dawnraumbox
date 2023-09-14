@@ -72,16 +72,16 @@
             "page": ""
           }
         },
-        "e5b6f608-eb77-474b-bdb3-7ee938a4adae": {
-          "type": "rating",
+        "9edde079-3105-4dc3-b262-54e1f80a74bc": {
+          "type": "icon-with-text",
           "settings": {
-          }
-        },
-        "d85dcbf2-080a-49a5-a916-277cc27401d5": {
-          "type": "popup",
-          "settings": {
-            "text": "Fragen zum Artikel?",
-            "page": "contact"
+            "layout": "horizontal",
+            "icon_1": "chat_bubble",
+            "heading_1": "<a href=\"\/pages\/contact\" title=\"Kontakt\">Fragen zum Produkt?<\/a>",
+            "icon_2": "return",
+            "heading_2": "<a href=\"\/pages\/widerrufsrecht-fur-den-verkauf-von-waren\" target=\"_blank\" title=\"Widerrufsrecht für den Verkauf von Waren\">Rückgabe<\/a>",
+            "icon_3": "truck",
+            "heading_3": "<a href=\"\/pages\/zahlung-und-versand\" target=\"_blank\" title=\"Zahlung und Versand\">Zahlung und Versand<\/a>"
           }
         },
         "share": {
@@ -116,8 +116,7 @@
         "6d6a598a-e08f-4174-8f5d-fda9c6e7b9de",
         "description",
         "6611bb51-1bc2-44f0-8deb-86611e36a3b1",
-        "e5b6f608-eb77-474b-bdb3-7ee938a4adae",
-        "d85dcbf2-080a-49a5-a916-277cc27401d5",
+        "9edde079-3105-4dc3-b262-54e1f80a74bc",
         "share",
         "4bed5556-ee28-4eab-a46a-c14c76126fa2"
       ],
