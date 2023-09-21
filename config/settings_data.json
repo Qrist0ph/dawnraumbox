@@ -117,6 +117,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/raumbox_signet_400x400pixel_300dpi.png",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
