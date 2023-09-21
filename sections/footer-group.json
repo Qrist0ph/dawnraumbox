@@ -5,7 +5,7 @@
     "69e0a1e5-8208-46dd-ac5e-732e45cdd0f0": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!--Trustami Vertrauenssiegel--> \n<div class=\"widget_container\"><\/div>\n\n<script id=\"trustamiwidget\" type=\"text\/javascript\" src=\"https:\/\/cdn.trustami.com\/widgetapi\/widget2\/trustami-widget.js\" data-profile=\"6299bea47e78cd2e3e8b4568\" data-user=\"219db13efae543abc9650d4c40f22d4238c99d19\" data-platform=\"0\" async><\/script>",
+        "custom_liquid": "<!--Trustami Vertrauenssiegel--> \n<div class=\"widget_container\"><\/div>\n\n<script id=\"trustamiwidget\" type=\"text\/javascript\" src=\"https:\/\/cdn.trustami.com\/widgetapi\/widget2\/trustami-widget.js\" data-profile=\"6299bea47e78cd2e3e8b4568\" data-user=\"219db13efae543abc9650d4c40f22d4238c99d19\" data-platform=\"0\" async><\/script>\n\n<script src=\"https:\/\/consenttool.haendlerbund.de\/app.js?apiKey=22d78585bb23fdaa7789f5225883ced56a2dd2e9899d57bd&amp;domain=0b1a0df\" referrerpolicy=\"origin\"><\/script>",
         "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 20

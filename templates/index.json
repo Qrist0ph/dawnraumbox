@@ -1,14 +1,5 @@
 {
   "sections": {
-    "6632dd72-b8fb-46a0-bc68-d47be3415626": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/consenttool.haendlerbund.de\/app.js?apiKey=22d78585bb23fdaa7789f5225883ced56a2dd2e9899d57bd&amp;domain=0b1a0df\" referrerpolicy=\"origin\"><\/script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -221,7 +212,6 @@
     }
   },
   "order": [
-    "6632dd72-b8fb-46a0-bc68-d47be3415626",
     "image_banner",
     "978691bc-99c8-46c9-b3be-16afebdd2cb8",
     "featured_collection",
