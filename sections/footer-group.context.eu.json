@@ -4,5 +4,12 @@
     "market": "eu"
   },
   "sections": {
+    "footer": {
+      "settings": {
+        "enable_country_selector": false
+      },
+      "blocks": {
+      }
+    }
   }
 }
