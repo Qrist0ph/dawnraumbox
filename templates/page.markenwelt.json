@@ -27,12 +27,19 @@
           "settings": {
             "collection": "herrnhuter"
           }
+        },
+        "featured_collection_EUY4zc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tonies"
+          }
         }
       },
       "block_order": [
         "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-1",
         "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-2",
-        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-3"
+        "template--20928352551233__489d9f79-e3a5-49fa-be82-1cba268607b8-featured_collection-3",
+        "featured_collection_EUY4zc"
       ],
       "settings": {
         "title": "Kategorien",
