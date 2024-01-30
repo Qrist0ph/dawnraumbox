@@ -512,6 +512,29 @@
   "shopify": {
     "links": {
       "powered_by_shopify": "Mit 💙 in Bayern entwickelt, für die Welt geschaffen. 🌎"
+    },
+    "checkout": {
+      "stock": {
+        "sold_out_label": "Ausverkauft"
+      },
+      "throttle": {
+        "merchandise": {
+          "sold_out": "Ausverkauft"
+        },
+        "inventory": {
+          "sold_out": {
+            "heading": "Dein Warenkorb ist ausverkauft.",
+            "storefront_body": "Gehe zurück zum Shop, um weiter einzukaufen.",
+            "no_storefront_body": "leider ist der Artikel, den du kaufen möchtest, nicht mehr verfügbar.",
+            "link": "Zurück zum Shop"
+          }
+        }
+      }
+    },
+    "notices": {
+      "cart": {
+        "product_sold_out": "Das Produkt '{{name}}' ist leider ausverkauft."
+      }
     }
   }
 }
