@@ -303,6 +303,14 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  {% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-jquery-341-js' %}{% include 'bss-b2b-js' %}{% endif %}{% render "bc_banner" %}{% include 'globo.filter.action' %}
+  {% if content_for_header contains 'bss-b2b-cp' %}{% include 'bss-b2b-jquery-341-js' %}{% include 'bss-b2b-js' %}{% endif %}{% render "bc_banner" %}
+  {%- capture productTemplate -%}
+      {% render 'globo.filter.product.custom', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}
+    {%- endcapture -%}
+    
+      {%- unless productTemplate contains 'Liquid error' -%}
+        <script id="gspfProduct" type="template/html">{{- productTemplate | replace: "script>", "scripttag>" -}}</script>
+      {%- endunless -%}
+  {% include 'globo.filter.action' %}
 	</body>
 </html>
