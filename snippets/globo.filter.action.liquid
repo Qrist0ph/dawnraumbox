@@ -14,7 +14,7 @@ window.filesUrl = '{{ files_url[0] }}';
 {%- endunless -%}
 {%- endif -%}
 {% if request.page_type == 'collection' or request.page_type == 'search' or isEnableHomeFilter %}
-{%- capture productTemplate -%}{% render 'globo.filter.product' %}{%- endcapture -%}
+{%- capture productTemplate -%}{% render 'globo.filter.product.custom' %}{%- endcapture -%}
 {%- unless productTemplate contains 'Liquid error' -%}
 <script id="gspfProduct" type="template/html">{{- productTemplate | replace: "<script>", "<scripttag>" | replace: "</script>", "</scripttag>" -}}</script>
 {%- endunless -%}
