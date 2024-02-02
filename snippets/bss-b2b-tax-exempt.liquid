@@ -4,6 +4,7 @@
         {% assign bss_b2b_enable_gst = "0" %}
         {% assign bss_b2b_enable_abn = "0" %}
         {% assign bss_b2b_enable_uk_vat = "1" %}
+        {% assign bss_b2b_enable_us_ein = "0" %}
         {% assign bss_b2b_vat_exempt_selected = "0" %}
         {% assign show_vat_apply_to = "0" %}
         {% assign show_vat_customer_tags = "" | split: "," %}
@@ -15,18 +16,22 @@
         {% assign tax_exempt_form_subtitle_text_abn = "(ABN will be deducted at payment step)" %}
         {% assign tax_exempt_form_header_text_uk = "UK VAT Registration Number" %}
         {% assign tax_exempt_form_subtitle_text_uk = "(UK VAT will be deducted at payment step)" %}
+        {% assign tax_exempt_form_header_text_us_ein = "US EIN Registration Number" %}
+        {% assign tax_exempt_form_subtitle_text_us_ein = "(US Tax will be deducted at payment step)" %}
         {% capture taxExemptForm %}<div class="bss-b2b-tax-ex-wrapper">
   <h3 class="bss-vat-exempt-form-header-text">
     {% if bss_b2b_vat_exempt_selected == '0'%}<span class="bss-b2b-translation-vat-form_header_text">{{ tax_exempt_form_header_text }}</span>{%endif%}
     {% if bss_b2b_vat_exempt_selected == '1'%}<span class="bss-b2b-translation-vat-form_header_text_uk">{{ tax_exempt_form_header_text_uk }}</span>{%endif%}
     {% if bss_b2b_vat_exempt_selected == '2'%}<span class="bss-b2b-translation-vat-form_header_text_abn">{{ tax_exempt_form_header_text_abn }}</span>{%endif%}
     {% if bss_b2b_vat_exempt_selected == '3'%}<span class="bss-b2b-translation-vat-form_header_text_gst">{{ tax_exempt_form_header_text_gst }}</span>{%endif%}
+    {% if bss_b2b_vat_exempt_selected == '4'%}<span class="bss-b2b-translation-vat-form_header_text_us_ein">{{ tax_exempt_form_header_text_us_ein }}</span>{%endif%}
   </h3>
   <p class="bss-vat-exempt-form-subtitle-text">
     {% if bss_b2b_vat_exempt_selected == '0'%}<span class="bss-b2b-translation-vat-form_subtitle_text">{{ tax_exempt_form_subtitle_text }}</span>{%endif%}
     {% if bss_b2b_vat_exempt_selected == '1'%}<span class="bss-b2b-translation-vat-form_subtitle_text_uk">{{ tax_exempt_form_subtitle_text_uk }}</span>{%endif%}
     {% if bss_b2b_vat_exempt_selected == '2'%}<span class="bss-b2b-translation-vat-form_subtitle_text_abn">{{ tax_exempt_form_subtitle_text_abn }}</span>{%endif%}
     {% if bss_b2b_vat_exempt_selected == '3'%}<span class="bss-b2b-translation-vat-form_subtitle_text_gst">{{ tax_exempt_form_subtitle_text_gst }}</span>{%endif%}
+    {% if bss_b2b_vat_exempt_selected == '4'%}<span class="bss-b2b-translation-vat-form_subtitle_text_us_ein">{{ tax_exempt_form_subtitle_text_us_ein }}</span>{%endif%}
   </p>
   <div class="bss-b2b-vat-input-wrapper">
     <select name="bss-b2b-vat-selected" class="bss-b2b-vat-selected">
@@ -34,8 +39,9 @@
       {% if bss_b2b_enable_uk_vat == '1' %}<option value="1">UK</option>{% endif %}
       {% if bss_b2b_enable_abn == '1' %}<option value="2">ABN</option>{% endif %}
       {% if bss_b2b_enable_gst == '1' %}<option value="3">India GST</option>{% endif %}
+      {% if bss_b2b_enable_us_ein == '1' %}<option value="4">US EIN</option>{% endif %}
     </select>
-    <input type="text" name="bss-b2b-eu-tax" class="bss-b2b-vat-input" />
+    <input type="text" name="bss-b2b-eu-tax" class="bss-b2b-vat-input" onChange="handleStopPropagationInputChange(event)"/>
   </div>
   <div class="bss-b2b-tax-ex-message"></div>
   <script>
@@ -48,7 +54,12 @@
       }, 1000)
     });
   </script>
-</div>  {% endcapture %}
+  <script type="text/javascript">
+    function handleStopPropagationInputChange(event) {
+        event.stopPropagation();
+    }
+  </script>
+</div>{% endcapture %}
 {% assign isShowVATForm = false %}
 {% assign customerTags = customer.tags | join: ',' | downcase | split: ',' %}
 {% if show_vat_cart == "0" %}

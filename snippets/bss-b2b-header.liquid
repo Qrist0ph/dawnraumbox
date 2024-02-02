@@ -21,7 +21,8 @@
     "first_name": {{ customer.first_name | json }},
     "last_name": {{ customer.last_name | json }},
     "phone": {{ customer.phone | json }},
-    "email": "{{ customer.email | join }}"
+    "email": "{{ customer.email | join }}",
+    "country_code": "{{ customer.default_address.country_code }}"
   },
   "cart": {{ cart | json }},
   "line_item_products": {{ cart | map: "items"  | map: "product" | json }},
@@ -423,16 +424,23 @@ li.bss-qi-text-warning::before {
                     
                     
                     <script id="bss-b2b-config-data">
-                    if (typeof BSS_B2B == 'undefined') {
-                        var BSS_B2B = {};
+                        if (typeof BSS_B2B == 'undefined') {
+                            var BSS_B2B = {};
+                        }
+                
+                        BSS_B2B.storeId = 12231;
+                        BSS_B2B.currentPlan = "false";
+                        BSS_B2B.planCode = "advanced";
+                        BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":0},{"code":"act","status":0},{"code":"form","status":0},{"code":"tax_exempt","status":0},{"code":"amo","status":0},{"code":"mc","status":0},{"code":"public_api","status":0},{"code":"dc","status":0},{"code":"cart_note","status":0},{"code":"mo","status":0},{"code":"tax_display","status":0},{"code":"sr","status":0},{"code":"bogo","status":0},{"code":"qi","status":0},{"code":"ef","status":0}];
+                        BSS_B2B.integrationApp = [];
+                        
+                        var bssB2bApiServer = "https://b2b-solution-api.bsscommerce.com";
+                        var bssB2bCheckoutUrl = "https://b2b-solution-checkout.bsscommerce.com"
+                        var bssB2bCmsUrl = "https://b2b-solution.bsscommerce.com";
+                        var bssGeoServiceUrl = "https://geo-ip-service.bsscommerce.com";
+                    </script><style type="text/css">
+                    .shopify-payment-button__button, .shopify-payment-button__more-options{
+                             display: none !important;
                     }
-            
-                    BSS_B2B.storeId = 12231;
-                    BSS_B2B.currentPlan = "false";
-                    BSS_B2B.planCode = "advanced";
-                    BSS_B2B.shopModules = [{"code":"qb","status":1},{"code":"cp","status":0},{"code":"act","status":0},{"code":"form","status":0},{"code":"tax_exempt","status":0},{"code":"amo","status":0},{"code":"mc","status":0},{"code":"public_api","status":0},{"code":"dc","status":0},{"code":"cart_note","status":0},{"code":"mo","status":0},{"code":"tax_display","status":0},{"code":"sr","status":0},{"code":"bogo","status":0},{"code":"qi","status":0},{"code":"ef","status":0}];
-                    BSS_B2B.integrationApp = [];
-                    var bssB2bApiServer = "https://b2b-solution-api.bsscommerce.com";
-                    var bssB2bCmsUrl = "https://b2b-solution.bsscommerce.com";
-                    var bssGeoServiceUrl = "https://geo-ip-service.bsscommerce.com";
-                </script>
+                    .bss-b2b-btn-buyitnow { display: block !important; }
+                    meta[itemprop="price"] { display: none !important; }</style><style type="text/css">.bss-sub-offer-price,.bss-sub-offer-compare-at-price {display: none !important}</style> 
