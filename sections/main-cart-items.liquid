@@ -472,7 +472,7 @@
       {%- endif -%}
     </div>
 
-    {% comment %}  <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
+    <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
       <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
         <div class="js-contents">
           {%- if cart != empty -%}
@@ -870,7 +870,7 @@
       >
         {{ 'accessibility.loading' | t }}
       </p>
-    </form> {% endcomment %}
+    </form>
   </div>
 </cart-items>
 
