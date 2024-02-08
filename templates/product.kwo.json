@@ -68,7 +68,7 @@
           "settings": {
             "heading": "Produktspezifikationen",
             "icon": "check_mark",
-            "content": "<ul><li>Serie: <\/li><\/ul><p>{{ product.metafields.custom.kwo_serie | metafield_tag }}<\/p><ul><li>Höhe: {{ product.metafields.custom.hoehe | metafield_tag }}<\/li><li>Gewicht: {{ product.metafields.custom.gewicht | metafield_tag }}<\/li><li>Material: {{ product.metafields.custom.material.value }}<\/li><li>Verpackung: {{ product.metafields.custom.verpackung.value }}<\/li><li>Verpackungsfarbe: {{ product.metafields.custom.verpackungsfarbe.value }}<\/li><li>Herstellungsart: {{ product.metafields.custom.herstellungsart.value }}<\/li><li>Herstellungsland: {{ product.metafields.custom.herstellungsland.value }}<\/li><\/ul>",
+            "content": "<ul><li>Serie: <\/li><\/ul>{{ product.metafields.custom.kwo_serie | metafield_tag }}<ul><li>Höhe: {{ product.metafields.custom.hoehe | metafield_tag }}<\/li><li>Material: {{ product.metafields.custom.material.value }}<\/li><li>Herstellungsart: {{ product.metafields.custom.herstellungsart.value }}<\/li><li>Herstellungsland: {{ product.metafields.custom.herstellungsland.value }}<\/li><\/ul>",
             "page": ""
           }
         },
