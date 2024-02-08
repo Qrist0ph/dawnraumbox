@@ -43,6 +43,18 @@
           "settings": {
           }
         },
+        "icon_with_text_jbRJLw": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "chat_bubble",
+            "heading_1": "<a href=\"\/pages\/contact\" title=\"Kontakt\">Fragen zum Produkt?<\/a>",
+            "icon_2": "return",
+            "heading_2": "<a href=\"\/pages\/widerrufsrecht-fur-den-verkauf-von-waren\" target=\"_blank\" title=\"Widerrufsrecht für den Verkauf von Waren\">Rückgabe<\/a>",
+            "icon_3": "truck",
+            "heading_3": "<a href=\"\/pages\/zahlung-und-versand\" target=\"_blank\" title=\"Zahlung und Versand\">Zahlung und Versand<\/a>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -58,6 +70,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "icon_with_text_jbRJLw",
         "share"
       ],
       "settings": {
