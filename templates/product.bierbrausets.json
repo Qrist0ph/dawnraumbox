@@ -49,12 +49,6 @@
           "settings": {
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "icon_with_text_dkjiaf": {
           "type": "icon-with-text",
           "settings": {
@@ -65,6 +59,12 @@
             "heading_2": "<a href=\"\/pages\/widerrufsrecht-fur-den-verkauf-von-waren\" target=\"_blank\" title=\"Widerrufsrecht für den Verkauf von Waren\">Rückgabe<\/a>",
             "icon_3": "truck",
             "heading_3": "<a href=\"\/pages\/zahlung-und-versand\" target=\"_blank\" title=\"Zahlung und Versand\">Zahlung und Versand<\/a>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -77,8 +77,8 @@
         "buy_buttons",
         "d287964b-c453-4451-8d9a-51c60589abe0",
         "description",
-        "share",
-        "icon_with_text_dkjiaf"
+        "icon_with_text_dkjiaf",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
