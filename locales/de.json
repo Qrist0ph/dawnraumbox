@@ -108,7 +108,7 @@
     "product": {
       "add_to_cart": "In den Warenkorb legen",
       "description": "Beschreibung",
-      "on_sale": "Sale",
+      "on_sale": "Angebot",
       "quantity": {
         "label": "Anzahl",
         "input_label": "Anzahl von {{ product }}",
@@ -182,7 +182,7 @@
       "apply": "Anwenden",
       "clear": "Löschen",
       "clear_all": "Alle entfernen",
-      "from": "Von",
+      "from": "Ab",
       "filter_and_sort": "Filtern und sortieren",
       "filter_by_label": "Filter:",
       "filter_button": "Filter",
