@@ -16,7 +16,7 @@
           "type": "announcement",
           "settings": {
             "text": "Mengenrabatt bei ausgewählten Produkten ab 2 Stück (bis zu 15%)! Hier clicken",
-            "link": "shopify://collections/mengenrabatt"
+            "link": "shopify:\/\/collections\/rabattwelt"
           }
         }
       },
